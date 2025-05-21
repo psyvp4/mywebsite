@@ -1,0 +1,18 @@
+Additional Work CSS :
+Lines 65- 109;
+
+-navbar is displayed vertically and stretches to fill the available width 
+
+-Uses CSS Grid with three rows: header, main, and bottom.
+
+- All grid columns are set to a single column (1fr).
+
+- Sidebar and Footer:
+
+- Reset using all: unset.
+
+- Displayed as inline-block elements within the "bottom" grid area.
+
+- Styled with borders, padding, and margin.
+
+- sidebar takes 20% width, and footer takes 80%, arranged side-by-side.

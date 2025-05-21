@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vehicle Search</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Vehicle Search</h1>
+      <nav>
+        <div class="navbar">
+          <ul id="Navbar" class="nav-links">
+            <li class="people-search"><a href="index.html">People Search</a></li>
+            <li class="vehicle-search"><a href="vehiclesearch.html">Vehicle Search</a></li>
+            <li class="add-vehicle"><a href="addvehicle.html">Add a Vehicle</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <aside id="sidebar">
+      <img src="photo.jpeg" width = "50" height = "50" alt="Logo">
+    </aside>
+
+    <main>
+      <form id="vehiclesearchform">
+        <label for="rego">Enter registration number:</label>
+        <input type="text" id="rego" name="rego" required>
+        <button type="submit" value = "Submit">Submit</button>
+      </form>
+      <div id="message"></div>
+      <div id="results"></div>
+    </main>
+
+    <footer>
+      <p>This is the footer Viresh Patel</p>
+    </footer>
+  </div> 
+  <script src="script2.js" type='module'></script>
+
+</body>
+
+</html>
